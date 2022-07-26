@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\dev\Halide-14.0.0-x86-64-windows\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\dev\Halide-14.0.0-x86-64-windows\lib\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)..\External\Halide-14.0.0-x86-64-windows\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\External\Halide-14.0.0-x86-64-windows\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
