@@ -1,0 +1,4 @@
+*/.vs
+Halide-Tutorial-*/*/*.vcxproj.user
+Halide-Tutorial-*/x64
+Halide-Tutorial-*/*/x64
